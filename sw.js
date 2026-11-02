@@ -1,6 +1,6 @@
 /* Organizê · service worker (app instalável, offline e notificações) */
-const CACHE = "organize-v2026110214";
-const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./badge-96.png", "./apple-touch-icon.png", "./firebase-config.js"];
+const CACHE = "organize-v2026110220";
+const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./badge-96.png", "./notif-192.png", "./apple-touch-icon.png", "./firebase-config.js"];
 
 try {
   importScripts("./firebase-config.js");
@@ -13,7 +13,7 @@ try {
       const d = (p && p.data) || {};
       return self.registration.showNotification(d.title || "Organizê", {
         body: d.body || "",
-        icon: "./icon-192.png",
+        icon: "./notif-192.png",
         badge: "./badge-96.png",
         tag: d.tag || undefined,
         renotify: false,
