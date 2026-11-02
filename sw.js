@@ -1,5 +1,5 @@
 /* Organizê · service worker (app instalável, offline e notificações) */
-const CACHE = "organize-v2026110227";
+const CACHE = "organize-v2026110230";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./badge-96.png", "./notif-192.png", "./apple-touch-icon.png", "./firebase-config.js"];
 
 try {
