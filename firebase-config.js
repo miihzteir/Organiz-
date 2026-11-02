@@ -7,5 +7,5 @@ self.ORGANIZE_FIREBASE = {
   storageBucket: "organiz-7222f.firebasestorage.app",
   messagingSenderId: "438815747937",
   appId: "1:438815747937:web:f3ad06f2c42b33d0fcdf20",
-  vapidKey: "BMIU5SAi9KN7b23vGIwRnNSV33WBoA3XAkTxaoX2ScdH9is_JFFSxSAu7_Y8dxXk-JhNYSeBg1xnwh6mS_tUjKM",
+  vapidKey: "BGQpuCmV8WVeSE2S9rudTAO5GGefM0-HFKA6b8JijgJWd9v1UP7n5jZJYwLFolfecos1CVYW18mdFi_hHs7r1Ic",
 };
